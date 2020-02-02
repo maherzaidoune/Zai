@@ -1,0 +1,2 @@
+# Zai
+Zai programming language
