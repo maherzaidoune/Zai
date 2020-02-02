@@ -2,9 +2,12 @@
   "name": "zai",
   "version": "1.0.0",
   "description": "zai programming language ",
-  "main": "start.js",
+  "main": "./src/start.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --source-maps --out-dir build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repl": "node --experimental-modules --es-module-specifier-resolution=node src/start.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/ZaiLang/Zai/issues"
   },
-  "homepage": "https://github.com/ZaiLang/Zai#readme"
+  "homepage": "https://github.com/ZaiLang/Zai#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
