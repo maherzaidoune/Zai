@@ -1,0 +1,24 @@
+{
+  "name": "zai",
+  "version": "1.0.0",
+  "description": "zai programming language ",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaiLang/Zai.git"
+  },
+  "keywords": [
+    "zai",
+    "programming",
+    "language"
+  ],
+  "author": "Maher Zaidoune",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZaiLang/Zai/issues"
+  },
+  "homepage": "https://github.com/ZaiLang/Zai#readme"
+}
