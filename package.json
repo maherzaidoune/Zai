@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ZaiLang/Zai#readme",
   "devDependencies": {},
   "dependencies": {
+    "mocha": "^7.0.1",
     "readline-sync": "^1.4.10"
   }
 }
