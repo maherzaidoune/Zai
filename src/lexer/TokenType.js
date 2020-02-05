@@ -9,6 +9,8 @@ export var TokenType = {
   Func: "func",
   For: "for",
   Cache: "_",
+  Memoise: "mem",
+  rrdl: "*^*",
   If: "if",
   In: "in",
   Lazy: "lazy",
