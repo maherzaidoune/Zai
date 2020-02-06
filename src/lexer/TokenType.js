@@ -9,7 +9,8 @@ export var TokenType = {
   Func: "func",
   For: "for",
   Cache: "_",
-  Memoise: "mem",
+  Memoise: "mem", // memoize
+  Set: "set", //set value
   rrdl: "*^*",
   If: "if",
   In: "in",
