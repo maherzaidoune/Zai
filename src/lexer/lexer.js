@@ -6,9 +6,17 @@ export class Lexer {
     this.buffer = [];
     this.position = 0;
     this.line = 0;
+    this.column = 0;
   }
 
-  nextToken() {
-    
+  nextToken = () => {
+    if (this.buffer.length > 0) {
+      return this.buffer.pop();
+    }
+    return this.read();
+  }
+
+  read = () => {
+
   }
 }
