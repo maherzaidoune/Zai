@@ -24,8 +24,8 @@
     "url": "https://github.com/ZaiLang/Zai/issues"
   },
   "homepage": "https://github.com/ZaiLang/Zai#readme",
-  "devDependencies": {},
   "dependencies": {
+    "inquirer": "^9.1.4",
     "mocha": "^7.2.0",
     "readline-sync": "^1.4.10"
   }
